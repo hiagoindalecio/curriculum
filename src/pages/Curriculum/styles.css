@@ -1,0 +1,136 @@
+#page-curriculum {
+    width: 100%;
+    max-width: 1100px;
+
+    margin: 0 auto;
+}
+
+#page-curriculum header {
+    margin-top: 48px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page-curriculum header a {
+    color: var(--title-color);
+    font-weight: bold;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+}
+
+#page-curriculum form {
+    margin: 60px auto;
+    padding: 64px;
+    max-width: 990px;
+    background: #FFF;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#page-curriculum form img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 5px;
+}
+
+#page-curriculum form h1 {
+    font-size: 36px;
+}
+
+#page-curriculum form fieldset {
+    margin-top: 64px;
+    min-inline-size: auto;
+    border: 0;
+}
+
+#page-curriculum form legend {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#page-curriculum form legend h2 {
+    font-size: 24px;
+}
+
+#page-curriculum form legend span {
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--text-color);
+}
+
+#page-curriculum form .field-group {
+    flex: 1;
+    display: flex;
+}
+
+#page-curriculum form .field {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+#page-curriculum form .field select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    flex: 1;
+    background: #F0F0F5;
+    border-radius: 8px;
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    color: #6C6C80;
+}
+
+#page-curriculum form .field label {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+#page-curriculum form .field :disabled {
+    cursor: not-allowed;
+}
+
+#page-curriculum form .field-group .field + .field {
+    margin-left: 24px;
+}
+
+#page-curriculum form .field-group input + input {
+    margin-left: 24px;
+}
+
+#page-curriculum form .field-check {
+    flex-direction: row;
+    align-items: center;
+}
+
+#page-curriculum form button {
+    width: 260px;
+    height: 56px;
+    background: var(--primary-color);
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 16px;
+    border: 0;
+    align-self: flex-end;
+    margin-top: 40px;
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+
+#page-curriculum form button:hover {
+background: #3498DB;
+}
